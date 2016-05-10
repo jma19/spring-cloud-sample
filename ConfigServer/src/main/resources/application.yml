@@ -1,0 +1,23 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: ConfigServer
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/spring-cloud-samples/config-repo
+          searchPaths: conf*
+
+#          repos:
+#            simple: https://github.com/pattern1/config-repo
+#            special:
+#              pattern: pattern*,*pattern1*
+#              uri: https://github.com/pattern2/config-repo
+#            local:
+#              pattern: local*
+#              uri: file:/home/configsvc/config-repo
+
+

@@ -3,8 +3,8 @@ Spring Cloud提供分布式环境下资源统一配置的功能，用户通过�
 
 
 ##Config Server
+Server对外提供HTTP接口来访问external配置(key value pair或者YAML内容)。使用@EnableConfigServer注解可以很方便的将Config Server集成到Springboot Application中。
 
-The Server provides an HTTP, resource-based API for external configuration (name-value pairs, or equivalent YAML content). The server is easily embeddable in a Spring Boot application using the @EnableConfigServer annotation.
 
 
 
