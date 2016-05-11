@@ -9,8 +9,10 @@ spring:
       server:
         git:
           uri: https://github.com/spring-cloud-samples/config-repo
-          searchPaths: conf*
+          searchPaths: conf
+          cloneOnStart: true
 
+#
 #          repos:
 #            simple: https://github.com/pattern1/config-repo
 #            special:
